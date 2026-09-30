@@ -1,0 +1,11 @@
+com/wsousa/comercial/repositorio/VendaRepositorio.class
+com/wsousa/comercial/servico/NegocioException.class
+com/wsousa/comercial/repositorio/memoria/MemoriaVendaRepositorio.class
+com/wsousa/comercial/entidade/Venda.class
+com/wsousa/comercial/repositorio/FabricaDeRepositorio.class
+com/wsousa/comercial/repositorio/mysql/MySQLFabricaDeRepositorio.class
+com/wsousa/comercial/Principal.class
+com/wsousa/comercial/servico/CadastroVendaServico.class
+com/wsousa/comercial/repositorio/memoria/MemoriaFabricaDeRepositorio.class
+com/wsousa/comercial/repositorio/mysql/MySQLVendaRepositorio.class
+com/wsousa/comercial/repositorio/PersistenciaException.class

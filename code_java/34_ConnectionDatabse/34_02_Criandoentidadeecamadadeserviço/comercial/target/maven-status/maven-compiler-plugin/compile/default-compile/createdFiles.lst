@@ -1,0 +1,5 @@
+com/wsousa/comercial/Principal.class
+com/wsousa/comercial/servico/CadastroVendaServico.class
+com/wsousa/comercial/PersistenciaException.class
+com/wsousa/comercial/servico/NegocioException.class
+com/wsousa/comercial/entidade/Venda.class

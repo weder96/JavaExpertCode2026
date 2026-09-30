@@ -1,0 +1,34 @@
+/**
+ * Demo for the  {@link Stack} interface and its implementations.
+ *
+ * @author wsousa96
+ */
+public class StackDemo {
+  public static void main(String[] args) {
+    runDemo(new ArrayDequeStack<>());
+    runDemo(new BoundedArrayStack<>(10));
+    runDemo(new ArrayStack<>());
+    runDemo(new LinkedListStack<>());
+    runDemo(new QueueStack<>());
+  }
+
+  private static void runDemo(Stack<Integer> stack) {
+    System.out.println("---------- " + stack.getClass().getSimpleName() + " ----------");
+
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+
+    System.out.println("stack.peek() = " + stack.peek());
+
+    System.out.println("stack.pop() = " + stack.pop());
+    System.out.println("stack.pop() = " + stack.pop());
+    System.out.println("stack.pop() = " + stack.pop());
+
+    try {
+      System.out.println("stack.pop() = " + stack.pop());
+    } catch (Exception ex) {
+      ex.printStackTrace(System.out);
+    }
+  }
+}

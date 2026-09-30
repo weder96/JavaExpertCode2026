@@ -1,0 +1,8 @@
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/Principal.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/entidade/Venda.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/repositorio/FabricaDeRepositorio.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/repositorio/PersistenciaException.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/repositorio/VendaRepositorio.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/repositorio/mysql/MySQLVendaRepositorio.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/servico/CadastroVendaServico.java
+/home/weder/Documentos/Projects/JavaExpertCode2026/code_java/34_ConnectionDatabse/34_08_DesacoplandoaimplementaçãodeRepository/comercial/src/main/java/com/wsousa/comercial/servico/NegocioException.java
