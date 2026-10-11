@@ -1,5 +1,3 @@
-package com.wsousa.crm;
-
 @FunctionalInterface
 public interface Filtro<T> {
 

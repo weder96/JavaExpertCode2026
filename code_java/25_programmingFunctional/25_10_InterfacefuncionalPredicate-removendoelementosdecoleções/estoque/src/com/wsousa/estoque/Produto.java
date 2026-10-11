@@ -1,5 +1,3 @@
-package com.wsousa.estoque;
-
 import java.math.BigDecimal;
 
 public class Produto {

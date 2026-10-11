@@ -1,5 +1,3 @@
-package com.wsousa.crm;
-
 public class Cliente {
 
     private String nome;
