@@ -1,5 +1,3 @@
-package br.com.wsousa.UaaryBinary;
-
 import java.util.Comparator;
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;
