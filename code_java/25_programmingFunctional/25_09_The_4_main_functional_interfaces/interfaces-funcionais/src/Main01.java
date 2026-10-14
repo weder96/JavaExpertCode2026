@@ -5,23 +5,23 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class Principal1 {
+public class Main01 {
 
     public static void main(String[] args) {
         Predicate<String> predicate = str -> str.startsWith("T");
-        boolean comecaComT = predicate.test("Thiago");
-        System.out.println(comecaComT);
+        boolean startsWithT = predicate.test("Thomas");
+        System.out.println(startsWithT);
 
         Function<String, LocalDate> function = str -> LocalDate.parse(str);
-        LocalDate data = function.apply("2023-09-13");
-        System.out.println(data);
+        LocalDate date = function.apply("2023-09-13");
+        System.out.println(date);
 
         Supplier<LocalDateTime> supplier = () -> LocalDateTime.now();
-        LocalDateTime dataHora = supplier.get();
-        System.out.println(dataHora);
+        LocalDateTime dateTime = supplier.get();
+        System.out.println(dateTime);
 
         Consumer<String> consumer = str -> System.out.println(str);
-        consumer.accept("Olá, mergulhador");
+        consumer.accept("Hello, diver");
     }
 
 }
