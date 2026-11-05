@@ -2,10 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         HotelRepository hotelRepo = new HotelRepository();
-        
-        // O repositório de hóspedes já arranca com 10 registos
         HospedeRepository hospedeRepo = new HospedeRepository();
-        
         CadastroHotel cadastroHotel = new CadastroHotel(hotelRepo);
 
         System.out.println("Hóspedes registados: " + hospedeRepo.listarTodos().size());
